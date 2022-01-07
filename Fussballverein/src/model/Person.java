@@ -1,5 +1,11 @@
 package model;
 
-public class Person {
+public abstract class Person {
+
+    String vorname;
+    String nachname;
+    
+
+
     
 }
