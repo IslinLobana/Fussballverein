@@ -1,5 +1,5 @@
 package model;
 
-public class Trainer {
+public class Liga {
     
 }
