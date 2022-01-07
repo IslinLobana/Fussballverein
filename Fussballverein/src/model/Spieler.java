@@ -1,5 +1,5 @@
 package model;
 
-public class Spieler {
+public class Spieler extends Person{
     
 }
