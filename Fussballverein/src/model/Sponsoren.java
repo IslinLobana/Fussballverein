@@ -1,5 +1,10 @@
 package model;
 
-public class Sponsoren {
+public class Sponsoren extends Verkauf{
+
+    String firmenname;
+    double laufzeit;
+    
+
     
 }
