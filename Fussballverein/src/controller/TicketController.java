@@ -1,20 +1,17 @@
 package controller;
 
-import model.Liga;
+import model.Ticket;
 
-public class LigaController {
-    
+public class TicketController {
+       
     MainController mc;
 
-    public LigaController(MainController mc){
+    public TicketController(MainController mc){
         setMc(mc);
     }
 
-
-
-    public void createDemoLiga(){
-        Liga l = new Liga(18, "LaLiga Santander", "Spaninen");
-    
+    public void createDemoTicket(){
+        Ticket t = new Ticket(false,"B 25" , 50);
     }
 
 
@@ -25,4 +22,5 @@ public class LigaController {
     public MainController getMc() {
         return mc;
     }
+
 }

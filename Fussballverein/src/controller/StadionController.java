@@ -1,21 +1,21 @@
 package controller;
 
-import model.Liga;
+import model.Stadion;
 
-public class LigaController {
+public class StadionController {
     
     MainController mc;
 
-    public LigaController(MainController mc){
+
+    public StadionController(MainController mc){
         setMc(mc);
     }
 
 
-
-    public void createDemoLiga(){
-        Liga l = new Liga(18, "LaLiga Santander", "Spaninen");
-    
+    public void createDemoStadion(){
+        Stadion st = new Stadion(true, 0, 50000, "Bernabeu");
     }
+
 
 
 
