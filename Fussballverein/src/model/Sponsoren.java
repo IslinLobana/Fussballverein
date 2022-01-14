@@ -7,7 +7,7 @@ public class Sponsoren extends Verkauf{
 
 
 
-    public Sponsoren(String firmenname, double laufzeit, double einkommen){
+    public Sponsoren(String firmenname, double laufzeit, int einkommen){
     super(einkommen);
     setFirmenname(firmenname);
     setLaufzeit(laufzeit);

@@ -7,7 +7,7 @@ public class Ticket extends Verkauf{
 
 
 
-    public Ticket(boolean dauerkarte, String stadionplatz, double einkommen){
+    public Ticket(boolean dauerkarte, String stadionplatz, int einkommen){
         super(einkommen);
         setDauerkarte(dauerkarte);
         setStadionplatz(stadionplatz);
