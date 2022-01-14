@@ -33,8 +33,8 @@ public class MainController {
     }
 
     public void createDemoData(){
-        getFc().createFans();
-        getLc().createLiga();
+        getFc().createFansar();
+        getLc().createDemoLiga();
         getSc().createSpieler();
         getSpc().createSponsoren();
         setStc().createStadion();
