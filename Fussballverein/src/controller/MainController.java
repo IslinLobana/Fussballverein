@@ -1,4 +1,5 @@
 package controller;
+import view.Output;
 
 
 public class MainController {
@@ -11,6 +12,7 @@ public class MainController {
     TicketController tc;
     TrainerController trc;
     TrikotController tric;
+    Output output;
     
 
 
@@ -23,6 +25,7 @@ public class MainController {
         setTc(new TicketController(this));
         setTrc(new TrainerController(this));
         setTric(new TrikotController(this));
+        setOutput(new Output());
     }
 
 
@@ -74,6 +77,9 @@ public class MainController {
     }
     public TrikotController getTric() {
         return tric;
+    }
+    public Output getOutput() {
+        return output;
     }
     
     
