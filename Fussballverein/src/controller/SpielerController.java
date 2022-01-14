@@ -14,7 +14,7 @@ public class SpielerController {
 
 
     public void createSpielerar(){
-        getSpielerar().add(new Spieler(20, 100000, "Jini", "Wienaldüm", "Mittelfeld", true, "PSG" ));
+        getSpielerar().add(new Spieler(20, 100000, "Jini", "Wienaldüm", "Mittelfeld", true, "Liverpool :)" ));
     }
 
     public void setSpielerar(ArrayList<Spieler> spielerar) {
