@@ -2,21 +2,21 @@ package model;
 
 public class Verkauf {
 
-    double einkommen;
+    int einkommen;
     
 
 
 
-    public Verkauf(double einkommen){
+    public Verkauf(int einkommen){
         setEinkommen(einkommen);
     }
 
 
-    public void setEinkommen(double einkommen) {
+    public void setEinkommen(int einkommen) {
         this.einkommen = einkommen;
     }
 
-    public double getEinkommen() {
+    public int getEinkommen() {
         return einkommen;
     }
 
