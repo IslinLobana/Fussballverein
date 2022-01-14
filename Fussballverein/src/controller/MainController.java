@@ -1,6 +1,5 @@
 package controller;
 
-import model.Trikot;
 
 public class MainController {
     
@@ -14,5 +13,68 @@ public class MainController {
     TrikotController tric;
     
 
+
+    public MainController(){
+        setFc(new FansController(this));
+        setLc(new LigaController(this));
+        setSc(new SpielerController(this));
+        setSpc(new SponsorenController(this));
+        setStc(new StadionController(this));
+        setTc(new TicketController(this));
+        setTrc(new TrainerController(this));
+        setTric(new TrikotController(this));
+    }
+
+
+    public void setFc(FansController fc) {
+        this.fc = fc;
+    }
+    public void setLc(LigaController lc) {
+        this.lc = lc;
+    }
+    public void setSc(SpielerController sc) {
+        this.sc = sc;
+    }
+    public void setSpc(SponsorenController spc) {
+        this.spc = spc;
+    }
+    public void setStc(StadionController stc) {
+        this.stc = stc;
+    }
+    public void setTc(TicketController tc) {
+        this.tc = tc;
+    }
+    public void setTrc(TrainerController trc) {
+        this.trc = trc;
+    }
+    public void setTric(TrikotController tric) {
+        this.tric = tric;
+    }
+    
+    public FansController getFc() {
+        return fc;
+    }
+    public LigaController getLc() {
+        return lc;
+    }
+    public SpielerController getSc() {
+        return sc;
+    }
+    public SponsorenController getSpc() {
+        return spc;
+    }
+    public StadionController getStc() {
+        return stc;
+    }
+    public TicketController getTc() {
+        return tc;
+    }
+    public TrainerController getTrc() {
+        return trc;
+    }
+    public TrikotController getTric() {
+        return tric;
+    }
+    
     
 }
