@@ -35,12 +35,12 @@ public class MainController {
     public void createDemoData(){
         getFc().createFansar();
         getLc().createDemoLiga();
-        getSc().createSpieler();
-        getSpc().createSponsoren();
-        setStc().createStadion();
-        SetTc().createTicket();
-        setTrc().createTrainer();
-        setTric().createTrikot();
+        getSc().createSpielerar();
+        getSpc().createSponsorenar();
+        getStc().createDemoStadion();
+        getTc().createDemoTicket();
+        getTrc().createTrainerar();
+        getTric().createTrikotar();
     }
 
     public void printDemoData(){
