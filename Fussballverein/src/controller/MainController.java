@@ -53,6 +53,9 @@ public class MainController {
     public void setTric(TrikotController tric) {
         this.tric = tric;
     }
+    public void setOutput(Output output) {
+        this.output = output;
+    }
     
     public FansController getFc() {
         return fc;

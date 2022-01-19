@@ -25,6 +25,7 @@ public class SpielerController {
         return spielerar;
     }
 
+    
 
     public void setMc(MainController mc) {
         this.mc = mc;
