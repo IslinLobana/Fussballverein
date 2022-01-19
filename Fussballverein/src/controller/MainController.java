@@ -44,7 +44,7 @@ public class MainController {
     }
 
     public void printDemoData(){
-        getGc().printGruppen();
+        getFc().printGruppen();
     }
 
 
