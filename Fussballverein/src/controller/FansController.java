@@ -30,6 +30,10 @@ public class FansController {
     public MainController getMc() {
         return mc;
     }
+
+    public void printGruppen() {
+        System.out.println("Hier sind alle Fans" + " " + getFansar());
+    }
     
 
     
