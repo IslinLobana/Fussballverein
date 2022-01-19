@@ -26,6 +26,25 @@ public class MainController {
         setTrc(new TrainerController(this));
         setTric(new TrikotController(this));
         setOutput(new Output());
+
+        createDemoData();
+        printDemoData();
+
+    }
+
+    public void createDemoData(){
+        getFc().createFansar();
+        getLc().createDemoLiga();
+        getSc().createSpieler();
+        getSpc().createSponsoren();
+        setStc().createStadion();
+        SetTc().createTicket();
+        setTrc().createTrainer();
+        setTric().createTrikot();
+    }
+
+    public void printDemoData(){
+        getGc().printGruppen();
     }
 
 
