@@ -26,6 +26,13 @@ public class SpielerController {
     }
 
     
+    public void getGehaelter(){
+        int gesamtGehaelter = 0;
+        for(Spieler sp : getSpielerar()){
+            gesamtGehaelter += sp.getGehalt();
+        }
+        System.out.println(gesamtGehaelter);
+    }
 
     public void setMc(MainController mc) {
         this.mc = mc;
