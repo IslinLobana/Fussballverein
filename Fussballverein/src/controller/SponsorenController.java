@@ -31,6 +31,12 @@ public class SponsorenController {
         return sponsorenar;
     }
 
+    public void printGruppen(){
+        for(Sponsoren sponsor: getSponsorenar()){
+            getMc().getOutput().printData(sponsor.getFirmenname());
+        } 
+    }
+
     
 }
 

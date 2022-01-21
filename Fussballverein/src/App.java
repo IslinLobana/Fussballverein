@@ -1,4 +1,3 @@
-import controller.FansController;
 import controller.MainController;
 
 public class App {

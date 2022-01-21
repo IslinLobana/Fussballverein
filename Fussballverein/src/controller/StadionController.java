@@ -5,6 +5,7 @@ import model.Stadion;
 public class StadionController {
     
     MainController mc;
+    Stadion st;
 
 
     public StadionController(MainController mc){
@@ -13,16 +14,29 @@ public class StadionController {
 
 
     public void createDemoStadion(){
-        Stadion st = new Stadion(true, 0, 50000, "Bernabeu");
+        setSt(new Stadion(true, 0, 50000, "Bernabeu"));
     }
 
 
-
+    public void setSt(Stadion st) {
+        this.st = st;
+    } 
 
     public void setMc(MainController mc) {
         this.mc = mc;
     }
+
+    public Stadion getSt() {
+        return st;
+    }
     public MainController getMc() {
         return mc;
     }
+
+    public void printData(){
+        getMc().getOutput().printData(getSt().getName() + " " + getSt().getAnzahlSitzeFrei() + " " + getSt().getAnzahlSitzeGesamt());
+    }
+
+    
+    
 }
