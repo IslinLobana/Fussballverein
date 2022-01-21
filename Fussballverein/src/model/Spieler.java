@@ -7,15 +7,18 @@ public class Spieler extends Person{
     String position;
     int alter;
     int gehalt;
+    int preis;
+   
 
 
-    public Spieler(String vorname, String nachname, int alter, String verein, boolean startelf, int gehalt){
+    public Spieler(int alter, int gehalt, String vorname, String nachname, String position, boolean startelf, String verein, int preis){
       super(vorname, nachname);
       setAlter(alter);
       setGehalt(gehalt);
       setPosition(position);
       setStartelf(startelf);
       setVerein(verein);
+      setPreis(preis);
     }
 
 
@@ -36,6 +39,9 @@ public class Spieler extends Person{
     public void setVerein(String verein) {
         this.verein = verein;
     }
+    public void setPreis(int preis) {
+        this.preis = preis;
+    }
     
     public int getAlter() {
         return alter;
@@ -51,6 +57,9 @@ public class Spieler extends Person{
     }
     public boolean getStartelf() {
         return startelf;
+    }
+    public int getPreis() {
+        return preis;
     }
     
 }

@@ -6,15 +6,30 @@ public class SpielerController {
 
     MainController mc; 
     ArrayList<Spieler> spielerar;
+    ArrayList<Spieler> spielerimclub;
 
     public SpielerController(MainController mc){
         setMc(mc);
         spielerar = new ArrayList<Spieler>();
+        spielerimclub = new ArrayList<Spieler>();
     }
 
 
     public void createSpielerar(){
-        getSpielerar().add(new Spieler(20, 100000, "Jini", "Wienaldüm", "Mittelfeld", true, "Liverpool :)" ));
+        getSpielerar().add(new Spieler(20, 100000, "Jini", "Wienaldüm", "Mittelfeld", true, "PSG", 50000000));
+    }
+
+    public void createspielerimclub(){
+        getSpielerimclub().add(new Spieler(19, 200000, "Karim", "Benzenmar", "Stürmer", true, "Real Betis", 25000000));
+    }
+ 
+
+    public void setSpielerimclub(ArrayList<Spieler> spielerimclub){
+        this.spielerimclub = spielerimclub;
+    }
+
+    public ArrayList<Spieler> getSpielerimclub() {
+        return spielerimclub;
     }
 
     public void setSpielerar(ArrayList<Spieler> spielerar) {
