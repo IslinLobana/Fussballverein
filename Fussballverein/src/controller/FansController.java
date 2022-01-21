@@ -32,9 +32,9 @@ public class FansController {
     }
 
     public void printGruppen() {
-        System.out.println("Hier sind alle Fans" + " " + getFansar());
+        //System.out.println("Hier sind alle Fans" + " " + getFansar());
+        for(Fans fan: getFansar()){
+            getMc().getOutput().printData(fan.getVorname() + " " + fan.getNachname() + " " + fan.getEigenschaften());
+        } 
     }
-    
-
-    
 }

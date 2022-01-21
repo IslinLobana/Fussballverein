@@ -6,7 +6,7 @@ public class Fans extends Person{
 
 
 
-    public Fans(String eigenschaften, String vorname, String nachname){
+    public Fans(String vorname, String nachname, String eigenschaften){
         super(vorname, nachname);
         setEigenschaften(eigenschaften);
 

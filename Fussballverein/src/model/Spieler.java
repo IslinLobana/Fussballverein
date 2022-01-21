@@ -9,7 +9,7 @@ public class Spieler extends Person{
     int gehalt;
 
 
-    public Spieler(int alter, int gehalt, String vorname, String nachname, String position, boolean startelf, String verein){
+    public Spieler(String vorname, String nachname, int alter, String verein, boolean startelf, int gehalt){
       super(vorname, nachname);
       setAlter(alter);
       setGehalt(gehalt);

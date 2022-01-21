@@ -41,6 +41,12 @@ public class SpielerController {
         return mc;
     }
 
+    public void printGruppen() {
+        for(Spieler spieler: getSpielerar()){
+            getMc().getOutput().printData(spieler.getVorname() + " " + spieler.getNachname() + " " + spieler.getAlter() + " " + spieler.getVerein() + " " + spieler.getPosition() + " " + spieler.getGehalt());
+        } 
+    }
+
     
     
 }
