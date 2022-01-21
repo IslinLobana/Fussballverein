@@ -17,7 +17,7 @@ public class LigaController {
     
     }
 
-
+    
 
     public void setMc(MainController mc) {
         this.mc = mc;

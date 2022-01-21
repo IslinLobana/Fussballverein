@@ -15,7 +15,7 @@ public class TrainerController {
 
 
     public void createTrainerar(){
-        getTrainerar().add(new Trainer("Jürgen", "Klopp", "Real Madrid", 70));
+        getTrainerar().add(new Trainer("Jürgen", "Klopp", "Liverpool", 70));
     }
 
     public void setMc(MainController mc) {
