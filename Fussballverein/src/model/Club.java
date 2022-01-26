@@ -12,6 +12,7 @@ public class Club {
         setSpieler(spieler);
         setStadion(stadion);
         setTrainer(trainer);
+        setBudget(budget);
     }
 
 
@@ -25,7 +26,9 @@ public class Club {
     public void setStadion(Stadion stadion) {
         this.stadion = stadion;
     }
-    
+    public void setBudget(int budget) {
+        this.budget = budget;
+    }
    
     public Stadion getStadion() {
         return stadion;
@@ -35,6 +38,9 @@ public class Club {
     }
     public Trainer getTrainer() {
         return trainer;
+    }
+    public int getBudget() {
+        return budget;
     }
     
 
