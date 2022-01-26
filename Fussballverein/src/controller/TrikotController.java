@@ -1,4 +1,4 @@
-    package controller;
+package controller;
 import java.util.*;
 import model.Trikot;
 
@@ -30,7 +30,7 @@ public class TrikotController {
         return trikotar;
     }
 
-    public void printTrickot(){
+    public void printGruppen(){
         for(Trikot trikot: getTrikotar()){
             getMc().getOutput().printData(trikot.getNachname() + " " + trikot.getVorname() + " " + trikot.getGroesse() + " " + trikot.getRueckennummer());
 
