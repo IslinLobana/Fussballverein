@@ -51,7 +51,7 @@ public class MainController {
         getLc().printLiga();
         getTc().printTicket();
         getTrc().printTrainer();
-        getTric().printTrickot();
+        getTric().printTrikot();
     }
 
 
