@@ -32,7 +32,7 @@ public class TicketController {
         return ticketar;
     }
 
-    public void printGruppen(){
+    public void printTicket(){
         for(Ticket ticket: getTicketar()){
             getMc().getOutput().printData(ticket.getStadionplatz() + " " + ticket.getEinkommen());
 

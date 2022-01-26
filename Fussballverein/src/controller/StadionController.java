@@ -33,7 +33,7 @@ public class StadionController {
         return mc;
     }
 
-    public void printData(){
+    public void printStadion(){
         getMc().getOutput().printData(getSt().getName() + " " + getSt().getAnzahlSitzeFrei() + " " + getSt().getAnzahlSitzeGesamt());
     }
 
