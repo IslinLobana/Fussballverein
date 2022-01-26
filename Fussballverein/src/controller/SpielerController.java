@@ -20,9 +20,13 @@ public class SpielerController {
     }
 
     public void createspielerimclub(){
-        getSpielerimclub().add(new Spieler(19, 200000, "Karim", "Benzenmar", "Stürmer", true, "Real Betis", 25000000));
+        getSpielerimclub().add(new Spieler(34, 600000, "Karim", "Benzenmar", "Stürmer", true, "Real Betis", 25000000));
+        getSpielerimclub().add(new Spieler(29, 1800000, "Mohamed", "Salah", "Rechter Flügel", true, "Real Betis", 150000000));
     }
  
+
+    //Spieler --> Verkaufen/Kaufen --> Preis soll auf Gesamtbudget addiert oder subtrahiert
+
 
     public void setSpielerimclub(ArrayList<Spieler> spielerimclub){
         this.spielerimclub = spielerimclub;

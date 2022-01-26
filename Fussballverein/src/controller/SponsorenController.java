@@ -14,7 +14,8 @@ public class SponsorenController {
 
 
     public void createSponsorenar(){
-        getSponsorenar().add(new Sponsoren("Müller", 3.5, 100000));
+        getSponsorenar().add(new Sponsoren("Müller", 3.5, 100000000));
+        getSponsorenar().add(new Sponsoren("Alfatauri Fashion", 4, 70000000));
     }
 
     public void setMc(MainController mc) {
