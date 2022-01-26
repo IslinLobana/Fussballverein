@@ -21,13 +21,8 @@ public class SpielerController {
         getSpielerar().add(new Spieler(29, 1800000, "Mohamed", "Salah", "Rechter Flügel", true, "Real Betis", 150000000));
     }
 
-<<<<<<< Updated upstream
-=======
-    
 
->>>>>>> Stashed changes
  
-
     //Spieler --> Verkaufen/Kaufen --> Preis soll auf Gesamtbudget addiert oder subtrahiert werden  
     //getSpielerar getPreis         If scanner: "kaufen" add.spielerimclub getgesamtBudget-getPreis
 
