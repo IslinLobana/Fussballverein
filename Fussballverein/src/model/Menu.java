@@ -12,7 +12,6 @@ public class Menu {
 
 
 
-
     public void setScanner(Scanner scanner) {
         this.scanner = scanner;
     }
