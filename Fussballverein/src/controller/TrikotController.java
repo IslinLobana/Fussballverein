@@ -17,11 +17,6 @@ public class TrikotController {
         getTrikotar().add(new Trikot(9, "XXL", 70, "Sonny", "Kittel" ));
     }
 
-    public void getTrikotVerkauf(){
-        for(Trikot trikot: getTrikotar()){
-            getTrikotar().getPreis();
-        }
-    }
 
 
 

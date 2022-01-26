@@ -1,5 +1,6 @@
 package controller;
 import model.Sponsoren;
+import model.Trikot;
 import view.Output;
 
 
@@ -61,6 +62,8 @@ public class MainController {
             getSpc().printData(sponsoren.getEinkommen());
         }
     }
+
+
 
     public void setFc(FansController fc) {
         this.fc = fc;
