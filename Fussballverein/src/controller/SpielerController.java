@@ -22,7 +22,6 @@ public class SpielerController {
     }
 
  
-
     //Spieler --> Verkaufen/Kaufen --> Preis soll auf Gesamtbudget addiert oder subtrahiert werden  
     //getSpielerar getPreis         If scanner: "kaufen" add.spielerimclub getgesamtBudget-getPreis
 
