@@ -29,4 +29,13 @@ public class TrikotController {
     public ArrayList<Trikot> getTrikotar() {
         return trikotar;
     }
+
+    public void printGruppen(){
+        for(Trikot trikot: getTrikotar()){
+            getMc().getOutput().printData(trikot.getNachname() + " " + trikot.getVorname() + " " + trikot.getGroesse() + " " + trikot.getRueckennummer());
+
+
+        }
+
+    }
 }    

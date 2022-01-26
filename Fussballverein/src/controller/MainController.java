@@ -45,6 +45,13 @@ public class MainController {
 
     public void printDemoData(){
         getFc().printGruppen();
+        getSc().printGruppen();
+        getSpc().printGruppen();
+        getStc().printData();
+        getLc().printData();
+        getTc().printGruppen();
+        getTrc().printGruppen();
+        getTric().printGruppen();
     }
 
 

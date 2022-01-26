@@ -31,5 +31,16 @@ public class TrainerController {
     public ArrayList<Trainer> getTrainerar() {
         return trainerar;
     }
+
+    public void printGruppen(){
+        for(Trainer trainer: getTrainerar()){
+            getMc().getOutput().printData(trainer.getVorname() + " " + trainer.getNachname() + " " + trainer.getAlter() + " " + trainer.getVerein());
+
+        }
+
+    }
+
+
+
     
 }
