@@ -51,6 +51,7 @@ public class Menu {
     public MainController getMc() {
         return mc;
     }
+    /*
     public void startMenu()
     {
         System.out.println("Bitte wähle aus");
@@ -133,8 +134,8 @@ public class Menu {
 
         Kein Plan wie das hier, wenn du das hier siehst kannst du ja auch sonst nochmal anrufen wenn das wichtig wäre. Sonst frage ich ihn morgen
         */
-     }
-
+     //}
+     /*
      public void createLigaMenu()
      {
          System.out.println("Erstelle die Liga für deinen Verein");
@@ -266,6 +267,7 @@ public class Menu {
 
 
      }
+     */
 
      
 
