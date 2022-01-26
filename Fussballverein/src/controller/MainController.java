@@ -57,7 +57,9 @@ public class MainController {
 
 
     public void getBudget(){
-        for(Sponsoren sponsoren: getSponsorenar())
+        for(Sponsoren sponsoren: getSpc().getSponsorenar()){
+            getSpc().printData(sponsoren.getEinkommen());
+        }
     }
 
     public void setFc(FansController fc) {

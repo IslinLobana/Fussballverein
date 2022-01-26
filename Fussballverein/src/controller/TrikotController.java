@@ -14,8 +14,17 @@ public class TrikotController {
 
 
     public void createTrikotar(){
-        getTrikotar().add(new Trikot(9, "XXL", "Sonny", "Kittel" ));
+        getTrikotar().add(new Trikot(9, "XXL", 70, "Sonny", "Kittel" ));
     }
+
+    public void getTrikotVerkauf(){
+        for(Trikot trikot: getTrikotar()){
+            getTrikotar().getPreis();
+        }
+    }
+
+
+
 
     public void setMc(MainController mc) {
         this.mc = mc;

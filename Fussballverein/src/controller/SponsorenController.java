@@ -38,6 +38,10 @@ public class SponsorenController {
         } 
     }
 
+
+    public void printData(int einkommen) {
+    }
+
     
 }
 
