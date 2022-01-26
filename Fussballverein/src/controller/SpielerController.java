@@ -25,7 +25,8 @@ public class SpielerController {
     }
  
 
-    //Spieler --> Verkaufen/Kaufen --> Preis soll auf Gesamtbudget addiert oder subtrahiert
+    //Spieler --> Verkaufen/Kaufen --> Preis soll auf Gesamtbudget addiert oder subtrahiert werden  
+    //getSpielerar getPreis         If scanner: "kaufen" add.spielerimclub getgesamtBudget-getPreis
 
 
     public void setSpielerimclub(ArrayList<Spieler> spielerimclub){
@@ -62,7 +63,7 @@ public class SpielerController {
 
     public void printGruppen() {
         for(Spieler spieler: getSpielerar()){
-            getMc().getOutput().printData(spieler.getVorname() + " " + spieler.getNachname() + " " + spieler.getAlter() + " " + spieler.getVerein() + " " + spieler.getPosition() + " " + spieler.getGehalt() + " " + spieler.getPreis());
+            getMc().getOutput().printData(spieler.getVorname() + " " + spieler.getNachname() + " " + spieler.getAlter() + " " + spieler.getVerein() + " " + spieler.getPosition() + " " + spieler.getGehalt());
         } 
     }
 

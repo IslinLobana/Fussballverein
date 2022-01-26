@@ -12,7 +12,6 @@ public class Club {
         setSpieler(spieler);
         setStadion(stadion);
         setTrainer(trainer);
-
     }
 
 
@@ -26,7 +25,7 @@ public class Club {
     public void setStadion(Stadion stadion) {
         this.stadion = stadion;
     }
-   
+    
    
     public Stadion getStadion() {
         return stadion;
