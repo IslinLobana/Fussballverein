@@ -21,11 +21,6 @@ public class SpielerController {
         getSpielerar().add(new Spieler(29, 1800000, "Mohamed", "Salah", "Rechter Flügel", true, "Real Betis", 150000000));
     }
 
-<<<<<<< Updated upstream
-=======
-    
-
->>>>>>> Stashed changes
  
 
     //Spieler --> Verkaufen/Kaufen --> Preis soll auf Gesamtbudget addiert oder subtrahiert werden  
@@ -64,10 +59,21 @@ public class SpielerController {
         return mc;
     }
 
+    public void printSpielerar() {
+        for(Spieler spieler: getSpielerar()){
+            getMc().getOutput().printData(spieler.getVorname() + " " + spieler.getNachname());
+        } 
+    }
+
     public void printSpieler() {
         for(Spieler spieler: getSpielerar()){
             getMc().getOutput().printData(spieler.getVorname() + " " + spieler.getNachname());
         } 
+        for(Spieler spieler: getSpielerimclub()){
+            getMc().getOutput().printData(spieler.getVorname() + " " + spieler.getNachname());
+        }
+
+
     }
 
     

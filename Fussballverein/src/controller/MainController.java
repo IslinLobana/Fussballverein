@@ -55,6 +55,8 @@ public class MainController {
     }
 
 
+    for()
+
     public void setFc(FansController fc) {
         this.fc = fc;
     }
