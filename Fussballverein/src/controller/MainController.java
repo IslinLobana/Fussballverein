@@ -1,5 +1,4 @@
 package controller;
-import model.Sponsoren;
 import view.Output;
 
 
@@ -56,9 +55,7 @@ public class MainController {
     }
 
 
-    public void getBudget(){
-        for(Sponsoren sponsoren: getSponsorenar())
-    }
+    
 
     public void setFc(FansController fc) {
         this.fc = fc;

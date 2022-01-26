@@ -72,10 +72,17 @@ public class SpielerController {
         for(Spieler spieler: getSpielerimclub()){
             getMc().getOutput().printData(spieler.getVorname() + " " + spieler.getNachname());
         }
-
-
     }
 
-    
-    
+    public void printSpielerimclub(){
+        
+        for(Spieler spieler: getSpielerimclub()){
+            getMc().getOutput().printData(spieler.getVorname() + " " + spieler.getNachname());
+        }
+    }
+
+
 }
+    
+    
+    
