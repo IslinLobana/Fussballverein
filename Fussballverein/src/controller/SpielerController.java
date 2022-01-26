@@ -17,12 +17,12 @@ public class SpielerController {
 
     public void createSpielerar(){
         getSpielerar().add(new Spieler(20, 100000, "Jini", "Wienaldüm", "Mittelfeld", true, "PSG", 50000000));
+        getSpielerar().add(new Spieler(34, 600000, "Karim", "Benzenmar", "Stürmer", true, "Real Betis", 25000000));
+        getSpielerar().add(new Spieler(29, 1800000, "Mohamed", "Salah", "Rechter Flügel", true, "Real Betis", 150000000));
     }
 
-    public void createspielerimclub(){
-        getSpielerimclub().add(new Spieler(34, 600000, "Karim", "Benzenmar", "Stürmer", true, "Real Betis", 25000000));
-        getSpielerimclub().add(new Spieler(29, 1800000, "Mohamed", "Salah", "Rechter Flügel", true, "Real Betis", 150000000));
-    }
+    public void 
+
  
 
     //Spieler --> Verkaufen/Kaufen --> Preis soll auf Gesamtbudget addiert oder subtrahiert werden  
@@ -61,9 +61,9 @@ public class SpielerController {
         return mc;
     }
 
-    public void printGruppen() {
+    public void printSpieler() {
         for(Spieler spieler: getSpielerar()){
-            getMc().getOutput().printData(spieler.getVorname() + " " + spieler.getNachname() + " " + spieler.getAlter() + " " + spieler.getVerein() + " " + spieler.getPosition() + " " + spieler.getGehalt());
+            getMc().getOutput().printData(spieler.getVorname() + " " + spieler.getNachname());
         } 
     }
 

@@ -32,7 +32,7 @@ public class TrainerController {
         return trainerar;
     }
 
-    public void printGruppen(){
+    public void printTrainer(){
         for(Trainer trainer: getTrainerar()){
             getMc().getOutput().printData(trainer.getVorname() + " " + trainer.getNachname() + " " + trainer.getAlter() + " " + trainer.getVerein());
 

@@ -33,7 +33,7 @@ public class LigaController {
         return Lc;
     }
 
-    public void printData(){
+    public void printLiga(){
         getMc().getOutput().printData(Lc.getLand() + " " + Lc.getAnzahlVerein() + " " + Lc.getName());
     }
 }

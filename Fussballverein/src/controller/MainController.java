@@ -45,13 +45,13 @@ public class MainController {
 
     public void printDemoData(){
         getFc().printGruppen();
-        getSc().printGruppen();
-        getSpc().printGruppen();
-        getStc().printData();
+        getSc().printSpieler();
+        getSpc().printSponsoren();
+        getStc().printStadion();
         getLc().printData();
-        getTc().printGruppen();
-        getTrc().printGruppen();
-        getTric().printGruppen();
+        getTc().printTicket();
+        getTrc().printTrainer();
+        getTric().printTrickot();
     }
 
 
