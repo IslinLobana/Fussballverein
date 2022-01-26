@@ -20,6 +20,9 @@ public class SpielerController {
         getSpielerar().add(new Spieler(34, 600000, "Karim", "Benzenmar", "Stürmer", true, "Real Betis", 25000000));
         getSpielerar().add(new Spieler(29, 1800000, "Mohamed", "Salah", "Rechter Flügel", true, "Real Betis", 150000000));
     }
+
+    
+
  
 
     //Spieler --> Verkaufen/Kaufen --> Preis soll auf Gesamtbudget addiert oder subtrahiert werden  
