@@ -1,6 +1,6 @@
 package controller;
 import java.util.*;
-import model.Sponsoren;
+import model.*;
 
 public class SponsorenController {
 
@@ -16,6 +16,20 @@ public class SponsorenController {
     public void createSponsorenar(){
         getSponsorenar().add(new Sponsoren("Müller", 3.5, 100000000));
         getSponsorenar().add(new Sponsoren("Alfatauri Fashion", 4, 70000000));
+    }
+
+
+
+    public void getEinkommen(){
+        int gesamtBudget = 0;
+        for(Sponsoren spo : getMc().getSpc().getSponsorenar()){
+            gesamtBudget += spo.getEinkommen();
+        }
+        for(Ticket ti : getMc().getTc().getTicketar()){
+            gesamtBudget += ti.getEinkommen();
+        }
+        getMc().getOutput().printData("Budget ");
+        getMc().getOutput().printDataInt(gesamtBudget);
     }
 
     public void setMc(MainController mc) {

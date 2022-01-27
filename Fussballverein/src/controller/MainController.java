@@ -13,7 +13,7 @@ public class MainController {
     TicketController tc;
     TrainerController trc;
     TrikotController tric;
-    Output output;
+    Output output = new Output();
     
 
 
@@ -63,6 +63,7 @@ public class MainController {
         for(Ticket ti : getTc().getTicketar()){
             gesamtBudget += ti.getEinkommen();
         }
+        getOutput().printData("Budget ");
         getOutput().printDataInt(gesamtBudget);
     }
 
