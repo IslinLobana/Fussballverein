@@ -1,4 +1,5 @@
 package controller;
+import model.*;
 import view.Output;
 
 
@@ -52,6 +53,17 @@ public class MainController {
         getTc().printTicket();
         getTrc().printTrainer();
         getTric().printTrikot();
+    }
+
+    public void getEinkommen(){
+        int gesamtBudget = 0;
+        for(Sponsoren spo : getSpc().getSponsorenar()){
+            gesamtBudget += spo.getEinkommen();
+        }
+        for(Ticket ti : getTc().getTicketar()){
+            gesamtBudget += ti.getEinkommen();
+        }
+        getOutput().printDataInt(gesamtBudget);
     }
 
 
