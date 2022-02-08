@@ -16,9 +16,20 @@ public class Menu {
 
     Scanner scanner;
 
+    Output o;
+    
+
     public Menu(MainController mc){
         setMc(mc);
         setScanner(new Scanner(System.in));
+    }
+
+    public Output getO() {
+        return o;
+    }
+
+    public void setO(Output o) {
+        this.o = o;
     }
 
     public void startMenu(){
@@ -31,7 +42,8 @@ public class Menu {
         System.out.println("Auswahl:" + choice);
 
         if(choice.equals("1")){
-            mc.getSc().printSpieler();
+            mc.getMc().getSc().printSpieler;
+            
         }
         if(choice.equals("2")){
             mc.getSc().printSpielerimclub();
